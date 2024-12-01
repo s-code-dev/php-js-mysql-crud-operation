@@ -1,0 +1,40 @@
+/* Стили формы редактирования | начало стилей */
+
+.form-base__wrapper {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form-base__wrapper form input[type=submit] {
+    cursor: pointer;
+    z-index: 2;
+
+}
+
+.form-base__wrapper form {
+    position: relative;
+}
+
+body {
+    position: relative;
+}
+
+.form-base__wrapper {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 104px);
+}
+
+.form-base__wrapper {
+    background: #dde0df;
+}
+
+.child {
+    margin-bottom: 5px;
+}
+
+.remove-form {
+    cursor: pointer;
+}
+
+/* Стили формы редактирования | окончание стилей */
